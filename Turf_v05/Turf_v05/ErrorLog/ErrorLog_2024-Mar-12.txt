@@ -1,0 +1,10 @@
+
+2024-03-12T07:46:05.427Z: MongoServerError: E11000 duplicate key error collection: TURF_DEMO.customercollections index: phonenumber_1 dup key: { phonenumber: 1827354628 }
+    at InsertOneOperation.execute (C:\GT\RETRO_STATION\Turf_v03\node_modules\mongodb\lib\operations\insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (C:\GT\RETRO_STATION\Turf_v03\node_modules\mongodb\lib\operations\execute_operation.js:106:16)
+
+2024-03-12T07:46:30.565Z: MongoServerError: E11000 duplicate key error collection: TURF_DEMO.customercollections index: phonenumber_1 dup key: { phonenumber: 1827354628 }
+    at InsertOneOperation.execute (C:\GT\RETRO_STATION\Turf_v03\node_modules\mongodb\lib\operations\insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (C:\GT\RETRO_STATION\Turf_v03\node_modules\mongodb\lib\operations\execute_operation.js:106:16)

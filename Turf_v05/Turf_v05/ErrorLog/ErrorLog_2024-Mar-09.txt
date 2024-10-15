@@ -1,0 +1,30 @@
+
+2024-03-09T05:54:47.235Z: ValidationError: SlotBook validation failed: balance_amount: Cast to Number failed for value "NaN" (type number) at path "balance_amount"
+    at Document.invalidate (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:3201:32)
+    at model.$set (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:1460:12)
+    at model.$set (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:1115:16)
+    at model.Document (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:166:12)
+    at model.Model (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\model.js:125:12)
+    at new model (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\model.js:4604:15)
+    at createSlotBooking (C:\GT\RETRO_STATION\Turf\Controllers\Slotbookingmastercontroller.js:266:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2024-03-09T05:54:57.614Z: ValidationError: SlotBook validation failed: balance_amount: Cast to Number failed for value "NaN" (type number) at path "balance_amount"
+    at Document.invalidate (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:3201:32)
+    at model.$set (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:1460:12)
+    at model.$set (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:1115:16)
+    at model.Document (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:166:12)
+    at model.Model (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\model.js:125:12)
+    at new model (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\model.js:4604:15)
+    at createSlotBooking (C:\GT\RETRO_STATION\Turf\Controllers\Slotbookingmastercontroller.js:266:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2024-03-09T05:55:55.636Z: ValidationError: SlotBook validation failed: balance_amount: Cast to Number failed for value "NaN" (type number) at path "balance_amount"
+    at Document.invalidate (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:3201:32)
+    at model.$set (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:1460:12)
+    at model.$set (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:1115:16)
+    at model.Document (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\document.js:166:12)
+    at model.Model (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\model.js:125:12)
+    at new model (C:\GT\RETRO_STATION\Turf\node_modules\mongoose\lib\model.js:4604:15)
+    at createSlotBooking (C:\GT\RETRO_STATION\Turf\Controllers\Slotbookingmastercontroller.js:266:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

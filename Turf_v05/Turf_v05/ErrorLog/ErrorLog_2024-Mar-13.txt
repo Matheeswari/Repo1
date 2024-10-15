@@ -1,0 +1,12 @@
+
+2024-03-13T06:58:20.198Z: ReferenceError: phonenumber is not defined
+    at createSlotBooking (C:\GT\RETRO_STATION\Turf_v03\Controllers\Slotbookingmastercontroller.js:246:74)
+    at Layer.handle [as handle_request] (C:\GT\RETRO_STATION\Turf_v03\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\GT\RETRO_STATION\Turf_v03\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\GT\RETRO_STATION\Turf_v03\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\GT\RETRO_STATION\Turf_v03\node_modules\express\lib\router\layer.js:95:5)
+    at C:\GT\RETRO_STATION\Turf_v03\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\GT\RETRO_STATION\Turf_v03\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\GT\RETRO_STATION\Turf_v03\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\GT\RETRO_STATION\Turf_v03\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\GT\RETRO_STATION\Turf_v03\node_modules\express\lib\router\index.js:47:12)

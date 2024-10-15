@@ -1,0 +1,26 @@
+
+2024-03-11T07:44:31.588Z: ValidationError: SlotBook validation failed: payment_details.0.payment_isActive: `Inactive` is not a valid enum value for path `payment_isActive`.
+    at Document.invalidate (C:\GT\RETRO_STATION\Turf_v02\node_modules\mongoose\lib\document.js:3201:32)
+    at Subdocument.invalidate (C:\GT\RETRO_STATION\Turf_v02\node_modules\mongoose\lib\types\subdocument.js:229:12)
+    at C:\GT\RETRO_STATION\Turf_v02\node_modules\mongoose\lib\document.js:2994:17
+    at C:\GT\RETRO_STATION\Turf_v02\node_modules\mongoose\lib\schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2024-03-11T07:48:16.692Z: ValidationError: SlotBook validation failed: payment_details.0.payment_isActive: `Inactive` is not a valid enum value for path `payment_isActive`.
+    at Document.invalidate (C:\GT\RETRO_STATION\Turf_v02\node_modules\mongoose\lib\document.js:3201:32)
+    at Subdocument.invalidate (C:\GT\RETRO_STATION\Turf_v02\node_modules\mongoose\lib\types\subdocument.js:229:12)
+    at C:\GT\RETRO_STATION\Turf_v02\node_modules\mongoose\lib\document.js:2994:17
+    at C:\GT\RETRO_STATION\Turf_v02\node_modules\mongoose\lib\schemaType.js:1368:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+2024-03-11T13:14:46.741Z: ReferenceError: updated_paid_amount is not defined
+    at updateSlotpayById (C:\GT\RETRO_STATION\Turf_v02\Controllers\Slotbookingmastercontroller.js:401:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2024-03-11T13:15:10.601Z: ReferenceError: updated_paid_amount is not defined
+    at updateSlotpayById (C:\GT\RETRO_STATION\Turf_v02\Controllers\Slotbookingmastercontroller.js:401:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2024-03-11T13:16:16.970Z: TypeError: Assignment to constant variable.
+    at updateSlotpayById (C:\GT\RETRO_STATION\Turf_v02\Controllers\Slotbookingmastercontroller.js:358:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

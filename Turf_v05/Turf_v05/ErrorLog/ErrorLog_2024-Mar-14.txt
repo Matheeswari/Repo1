@@ -1,0 +1,8 @@
+
+2024-03-14T03:59:03.820Z: TypeError: Cannot read properties of null (reading 'customer_name')
+    at createSlotBooking (C:\GT\RETRO_STATION\Turf_v03\Controllers\Slotbookingmastercontroller.js:248:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2024-03-14T04:01:46.820Z: TypeError: Cannot read properties of null (reading 'customer_name')
+    at createSlotBooking (C:\GT\RETRO_STATION\Turf_v03\Controllers\Slotbookingmastercontroller.js:248:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
