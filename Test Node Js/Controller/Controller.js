@@ -7,6 +7,7 @@ const path=require('path');
 exports.Insert=async(req,res,next)=>{
     try{
 
+//mathees
        // const sampleDoc = await SampleModel.create({ name, age });
         const {Name,Address,Age,MobileNo} =req.body;
         const InsertData =new GetModel({Name,Address,Age,MobileNo});
